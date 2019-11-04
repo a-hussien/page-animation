@@ -1,0 +1,11 @@
+@import './mixin';
+@import './variables';
+body {
+    @include general;
+    background: $slidercolor;
+}
+.warpper {
+    h3 {
+        color: rgb(144, 96, 235);
+    }
+}

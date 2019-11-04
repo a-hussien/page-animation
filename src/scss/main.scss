@@ -1,10 +1,8 @@
-$slidercolor: linear-gradient(to right, #c3cfd0, #294e57);
-$fontcolor: #fff;
-$position: absolute;
+@import './mixin';
+@import './variables';
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  @include general;
 }
 .slider {
   position: $position;

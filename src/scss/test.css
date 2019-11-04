@@ -1,0 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, right top, from(#c3cfd0), to(#294e57));
+  background: linear-gradient(to right, #c3cfd0, #294e57);
+}
+
+.warpper h3 {
+  color: #9060eb;
+}
+/*# sourceMappingURL=test.css.map */
